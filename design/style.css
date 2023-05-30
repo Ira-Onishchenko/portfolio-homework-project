@@ -87,3 +87,24 @@ p {
   margin: 50px 20px;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  h3 {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .name {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .key-info {
+    font-size: 20px;
+  }
+  #info {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+}
